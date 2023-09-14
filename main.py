@@ -53,10 +53,10 @@ for char in range(1, nr_symbols + 1):
 for char in range(1, nr_numbers + 1):
     password_list += random.choice(numbers)
 
-print(password_list)
+#print(password_list)
 #['Y', 'P', 'P', 'x', '+', '&', '4', '9']
 random.shuffle(password_list)
-print(password_list)
+#print(password_list)
 #['9', '4', 'P', '+', 'Y', 'x', '&', 'P']
 
 password = ""
